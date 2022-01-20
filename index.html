@@ -10,13 +10,13 @@
 </head>
 <body>
     <header class="header">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars hamburger"></i>
         <nav class="header__nav">
             <a href="" class="header__nav__item inicio">Inicio</a>
-            <a href="" class="header__nav__item project">Project</a>
-            <a href="" class="header__nav__item service">Servicio</a>
-            <a href="" class="header__nav__item about-me">About-me</a>
-            <a href="" class="header__nav__item contact">Contact</a>
+            <a href="#servicio" class="header__nav__item service">Servicio</a>
+            <a href="#portafolio" class="header__nav__item project">Project</a>
+            <a href="#expertos" class="header__nav__item about-me">About-me</a>
+            <a href="#contacto" class="header__nav__item contact">Contact</a>
         </nav>
         <div class="container head">
             <h1 class="head__title">Si lo puedes imaginar, lo puedes programar</h1>
@@ -30,15 +30,15 @@
                 <img src="assets/img/ilustracion-1.svg" alt="">
                 <div class="checklist--service">
                     <div class="service">
-                        <h3 class="n-service"><span>1</span> Diseño web</h3>
+                        <h3 class="n-service"><span class="number">1</span> Diseño web</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eum doloribus fuga? Assumenda, hic aut eveniet accusantium ad itaque nisi dolorum iure, quisquam expedita tempora corrupti id rerum laudantium ducimus.</p>
                     </div>
                     <div class="service">
-                        <h3 class="n-service"><span>2</span> Diseño web</h3>
+                        <h3 class="n-service"><span class="number">2</span> Diseño web</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eum doloribus fuga? Assumenda, hic aut eveniet accusantium ad itaque nisi dolorum iure, quisquam expedita tempora corrupti id rerum laudantium ducimus.</p>
                     </div>
                     <div class="service">
-                        <h3 class="n-service"><span>3</span> Diseño web</h3>
+                        <h3 class="n-service"><span class="number">3</span> Diseño web</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eum doloribus fuga? Assumenda, hic aut eveniet accusantium ad itaque nisi dolorum iure, quisquam expedita tempora corrupti id rerum laudantium ducimus.</p>
                     </div>
                 </div>
@@ -57,12 +57,51 @@
                     <img src="assets/img/img-6.jpg" class="img-gallery">
                 </div>
             </div>
-
+        </section>
+        <section class="img-light">
+            <i class="fas fa-times close"></i>
+            <img src="" alt="" class="agg-img">
+        </section>
+        <section class="container" id="expertos">
+            <h2 class="subtitle">Expertos en:</h2>
+            <section class="experts">
+                    <div class="container-experts">
+                        <img src="assets/img/expert-img.svg" alt="">
+                        <h3 class="n-expert">Analytics</h3>
+                    </div>
+                    <div class="container-experts">
+                        <img src="assets/img/podcast.svg" alt="">
+                        <h3 class="n-expert">podcast</h3>
+                    </div>
+                    <div class="container-experts">
+                        <img src="assets/img/social-dashboard.svg" alt="">
+                        <h3 class="n-expert">Redes sociales</h3>
+                    </div>
+            </section>
+            
         </section>
     </main>
-    <i class="fab fa-facebook-f"></i>
-    <i class="fab fa-linkedin-in"></i>
-    <i class="fab fa-instagram"></i>
+    <footer class="footer" id="contacto">
+        <div class="container-footer">
+            <div class="contacto footer-contact">
+                <h2 class="brand">Kritius Tech</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+            <div class="social-media">
+                <a href="" class="social-media__icon">
+                <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="social-media__icon">
+                <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="" class="social-media__icon">
+                <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>   
     <script src="app.js"></script>
+    <script src="lightbox.js"></script>
 </body>
 </html>
